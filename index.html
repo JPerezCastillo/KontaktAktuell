@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kontak.css" type="text/css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+</head>
+<body>
+    <h1>Kontakt Eingaben</h1>
+    <br>
+    <div class="mb-3">
+        <!-- <form> -->
+            <label > Vorname: </label> 
+            <input type="text" id="name" required class="form-control mb-2" placeholder="Geben sie Ihre Vorname ein" >
+            <label > Nachname: </label>
+            <input type="text" id="lastname" required class="form-control mb-2" placeholder="Geben sie Ihre Name ein">
+            <label > Email: </label> 
+            <input type="email" id="email" required class="form-control mb-2" placeholder="musterman@email.com">
+            <br><br>
+            <button type="submit" id="addKontak" class="btn btn-primary btn-lg">Kontakt Speicher</button>
+        <!-- </form> -->
+    </div>
+    <br>
+    <br>
+    <div>
+        <table id="outTable">
+    </div>
+    
+    <script src="kontak.js"></script>
+</body>
+</html>
